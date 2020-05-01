@@ -1,0 +1,14 @@
+version: "2"
+services:
+  api:
+    container_name: sap-configuration-ms
+    build: .
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
+  db:
+    container_name: sap-configuration-db
+    image: mongo
+    ports:
+      - "27018:27017"

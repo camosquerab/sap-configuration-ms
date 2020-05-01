@@ -1,0 +1,22 @@
+{
+  "name": "sap-configuration-ms",
+  "version": "1.0.0",
+  "description": "create rooms for hangman game",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "hagman",
+    "game"
+  ],
+  "author": "camosquerab@unal.edu.co",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "mongodb": "^3.5.7"
+  }
+}
